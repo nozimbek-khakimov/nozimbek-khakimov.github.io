@@ -1,0 +1,709 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:#f6f6f6;
+
+}
+img{
+    width: 100%;
+}
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+}
+.chap_navbar, .orta_navbar, .ong_navbar{
+    display: flex;
+    align-items: center;
+}
+.chap_navbar p{
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0B132A;
+}
+.orta_navbar a{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4F5665;
+    text-decoration: none;
+    margin: 0 20px;
+}
+.ong_navbar p{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0B132A;
+}
+.ong_navbar button{
+    padding: 15px 45px;
+    border: 1px solid #F53855;
+    border-radius: 50px;
+    border-radius: 50px;
+    color:#F53855;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin-left: 30px;
+}
+.intro
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.chap_intro{
+    width: 50%;
+}
+.chap_intro h1{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 70px;
+    color: #0B132A;
+}
+.chap_intro p{
+    margin-top: 20px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+}
+.chap_intro button{
+    padding: 15px 75px;
+    outline: none;
+    border: none;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+    background: #F53838;
+    border-radius: 10px;
+    margin-top: 50px;
+    box-shadow: 0 25px 55px rgba(245, 56, 56, 0.35);;
+}
+.numbers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 90px ;
+    background: #fff;
+    border-radius: 10px;
+    margin-top: 120px;
+    
+}
+
+.chap_number, .orta_number, .ong_number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.orta_number{
+    border-left: solid 2px #999;
+    border-right: solid 2px #999;
+    padding:0 100px;
+}
+.number1 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+    
+    
+    color: #4F5665;
+}
+.number2{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+    
+    
+    color: #4F5665;
+
+}
+.number3{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+    
+    
+    color: #4F5665;
+}
+.asos{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 95px;
+   
+}
+
+.tick{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 30px;
+/* identical to box height, or 214% */
+
+
+color: #4F5665;
+   
+}
+.tick img{
+    width: 20px;
+    margin-right: 10px;
+
+}
+.ong_asos{
+    width: 50%;
+}
+.ong_asos h1{
+    margin-bottom: 35px;
+    font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+font-size: 35px;
+line-height: 50px;
+/* or 143% */
+
+
+color: #0B132A;
+}
+.ong_asos p{
+    margin-bottom: 20px;
+    
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+/* or 187% */
+
+
+color: #4F5665;
+}
+.sarlavha_narxlar h1 {
+    text-align: center;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    color: #0B132A;
+}
+.sarlavha_narxlar p{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #4F5665;
+}
+.price{
+    margin-top: 210px;
+}
+.plan_prices{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.plan{
+    border: solid 2px #ddd;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 90px;
+
+}
+.plan h3{
+    text-align: center;
+    margin-top: 30px;
+    font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+/* identical to box height, or 167% */
+
+text-align: center;
+
+color: #0B132A;
+}
+.plan h1{
+    margin-top: 120px;
+    margin-bottom: 20px;
+    font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 30px;
+/* identical to box height, or 120% */
+
+text-align: center;
+
+color: #0B132A;
+
+}
+.plan button{
+    font-family: Rubik;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+    padding: 15px 60px;
+    border: 2px #F53838 solid;
+    border-radius: 50px;
+background: transparent;
+color: #F53838;
+
+}
+.plan button:hover{
+    
+    background: #F53838;
+    color: #FFFFFF;
+    transition: 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.plan:hover{
+    border: #F53838;
+    
+    transition: 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.map1{
+    text-align: center;
+
+}
+.map1 h1{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    margin-bottom: 20px;
+    margin-top: 120px;
+    text-align: center;
+    color: #0B132A;
+}
+.map1 p{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #4F5665;
+}
+.map1 img{
+    margin-top: 150px;
+}
+.chat1 h1{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    margin-bottom: 20px;
+    margin-top: 120px;
+    text-align: center;
+    color: #0B132A;
+}
+.chat1 p{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #4F5665;
+
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 30px;
+    color: #0B132A;
+}
+.card{
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    padding: 30px;
+ 
+    margin: 0 25px;
+   
+   
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.chap_info, .ong_info{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.chap_info img{
+    width: auto;
+    margin-right: 20px;
+}
+.card:hover{
+    border: #F53838 solid 2px;
+
+}
+.text{
+    padding-bottom: 60px;
+}
+.picture{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.right1{
+    margin-left: 20px;
+}
+.subscribe{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #fff;
+    padding: 60px 70px;
+    margin-bottom: 30px;
+}
+.chap_subscribe h1{
+    font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+font-size: 35px;
+line-height: 45px;
+/* or 129% */
+
+display: flex;
+align-items: center;
+
+color: #0B132A;
+}
+.chap_subscribe p{
+    font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+/* or 187% */
+
+display: flex;
+align-items: center;
+
+color: #4F5665;
+margin-top: 20px;
+}
+.button0{
+    padding: 20px 70px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    outline: none;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background: transparent;
+    
+
+}
+.button0:hover{
+    background: #F53838;
+    color: #fff;
+    box-shadow: #F53838 0 25px 55px  ;
+    
+
+}
+footer{
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 150px;
+
+}
+.footer1 img{
+    width: auto;
+   margin-bottom: 20px;
+}
+.footer1 p{
+    margin-bottom: 30px;
+}
+.footer1 a{
+    text-decoration: none;
+    color: #555;
+    font-size: 20px;
+
+}
+.footer1 a:hover{
+    text-decoration: solid 2px blue;
+    color: red;
+    
+}
+@media (max-width:1024px){
+    p{
+        font-size: 18px;
+    }
+    .plan{
+        padding:40px 100px;
+    }
+    .picture img{
+        width: 50px;
+    }
+  
+    .orta_navbar a{
+        font-size: 14px;
+    }
+    button{
+        font-size: 18px;
+    }
+    h1{
+        font-size: 48px;
+    }
+
+   
+}
+@media (max-width:768px){
+    .orta_navbar, .ong_navbar{
+        display: none;
+        align-items: center;
+    }
+    button{
+        padding: 10px 50px;
+    }
+    .intro{
+        flex-direction: column;
+        align-items: center;
+    }
+    .numbers{
+        flex-direction: column;
+        align-items: center;
+    }
+    .chap_number, .orta_number{
+        margin-bottom: 30px;
+    }
+    .asos{
+        flex-direction: column;
+        align-items: center;
+    }
+    .plan_prices{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .subscribe{
+        flex-direction: column;
+    }
+    .picture img{
+        display: none;
+    }
+    footer{
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+    footer p{
+        margin: 10px 0;
+    }
+}
+@media (max-width:425px){
+    .picture img{
+       display: none;
+    }
+    h1{
+        font-size: 30px;
+    }
+    p{
+        font-size: 14px;
+    }
+    button{
+        font-size: 14px;
+    }
+   
+    .chap_subscribe{
+        margin: 0;
+        font-size: 30px;
+
+    }
+    .button0{
+        padding: 10px 30px;
+    }
+    .footer1{
+        margin:0 10px;
+
+    }
+    .chap_intro h1{
+        font-size: 30px;
+    }
+    .chap_intro p{
+        font-size: 14px
+    }
+    .chap_intro button{
+        padding: 10px 30px;
+        font-size: 14px;
+    }
+    .right img{
+        width:30px;
+    }
+
+}
+@media (max-width:375px){
+    .picture img{
+       display: none;
+    }
+    h1{
+        font-size: 30px;
+    }
+    p{
+        font-size: 14px;
+    }
+    button{
+        font-size: 14px;
+    }
+    
+    .chap_subscribe{
+        margin: 0;
+        font-size: 30px;
+
+    }
+    .button0{
+        padding: 8px 25px;
+    }
+    .footer1{
+        margin:0 10px;
+
+    }
+    .chap_intro h1{
+        font-size: 20px;
+    }
+    .chap_intro p{
+        font-size: 12px
+    }
+    .chap_intro button{
+        padding: 8px 25px;
+        font-size: 12px;
+    }
+    .ong_asos h1{
+        font-size: 20px; 
+    }
+    .right img{
+        width:30px;
+    }
+    .numbers h1{
+        font-size: 20px;
+    }
+    .numbers img{
+        width: 30px;
+    }
+    footer{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+    }
+    footer img{
+        width: 30px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
